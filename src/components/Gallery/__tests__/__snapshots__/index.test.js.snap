@@ -6,32 +6,32 @@ exports[`Gallery component matches snapshot 1`] = `
     <h1
       data-testid="h1tag"
     >
-      Portraits
+      Architecture
     </h1>
     <p>
-      Portraits of people in my life
+      Accent of architecture
     </p>
     <div>
       <div
         class="flex-row"
       >
         <img
-          alt="Cat green eyes"
+          alt="TriTunnel"
           class="img-thumbnail mx-1"
           src="0.jpg"
         />
         <img
-          alt="Green parrot"
+          alt="Balconies"
           class="img-thumbnail mx-1"
           src="1.jpg"
         />
         <img
-          alt="Yellow macaw"
+          alt="Hex"
           class="img-thumbnail mx-1"
           src="2.jpg"
         />
         <img
-          alt="Pug smile"
+          alt="Modern Home"
           class="img-thumbnail mx-1"
           src="3.jpg"
         />

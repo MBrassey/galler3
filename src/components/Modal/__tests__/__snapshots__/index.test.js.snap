@@ -23,7 +23,7 @@ exports[`Modal component matches snapshot DOM node structure 1`] = `
       <button
         type="button"
       >
-        Close this modal
+        Close
       </button>
     </div>
   </div>

@@ -3,7 +3,7 @@ import React from 'react'
 import { render, cleanup } from '@testing-library/react'
 import '@testing-library/jest-dom/extend-expect'
 import Gallery from '..'
-const portrait = { name: "portraits", description: "Portraits of people in my life" };
+const architecture = { name: "architecture", description: "Accent of architecture" };
 
 
 afterEach(cleanup)
@@ -11,16 +11,16 @@ afterEach(cleanup)
 describe('Gallery component', () => {
 
   it('renders', () => {
-    render(<Gallery currentCategory={portrait} />);
+    render(<Gallery currentCategory={architecture} />);
   });
 
   it('matches snapshot', () => {
-    const { asFragment } = render(<Gallery currentCategory={portrait} />)
+    const { asFragment } = render(<Gallery currentCategory={architecture} />)
     expect(asFragment()).toMatchSnapshot()
   })
 });
 
 it('displays text', () => {
-  const { getByTestId } = render(<Gallery currentCategory={portrait} />)
-  expect(getByTestId('h1tag')).toHaveTextContent('Portraits')
+  const { getByTestId } = render(<Gallery currentCategory={architecture} />)
+  expect(getByTestId('h1tag')).toHaveTextContent('Architecture')
 })
