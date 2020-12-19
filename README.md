@@ -32,7 +32,7 @@ Single-page photography portfolio application that uses React state, props, Hook
 > App Demo
 > [<img src="public/Preview.jpg">](https://mbrassey.github.io/galler3/)
 
-> Usage
+> Installation & Usage
 > [<img src="public/Usage.gif">](https://mbrassey.github.io/galler3/)
 
 > Passing Tests
