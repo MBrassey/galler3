@@ -1,13 +1,12 @@
-
 main {
-	margin: 0 auto;
-	max-width: 90%;
+  margin: 0 auto;
+  max-width: 90%;
   padding: 50px 30px;
 }
 :root {
   --primary: #8c54ff;
-  --secondary: #F3A847;
-  --tertiary: #B12704;
+  --secondary: #f3a847;
+  --tertiary: #b12704;
   --light: #fafafa;
   --dark: #000000;
   --darker: #111111;
@@ -15,7 +14,6 @@ main {
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
-
 }
 
 * {
@@ -33,11 +31,10 @@ body {
   font-weight: 600;
   line-height: 1.5;
   font-size: 18px;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   background: var(--dark);
   color: var(--light);
   font-family: 'Poiret One', cursive;
-
 }
 
 h1,
@@ -103,7 +100,7 @@ button {
   font-size: 1rem;
   text-decoration: none;
   padding: 0.25rem 1rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   border: none;
   outline: none;
   cursor: pointer;
@@ -112,19 +109,19 @@ button {
 }
 
 button:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 button[disabled] {
   cursor: default;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 img {
   max-width: 100%;
 }
 
-span[role="img"] {
+span[role='img'] {
   cursor: default;
 }
 
@@ -143,7 +140,7 @@ input {
 
 input:focus {
   border: 1px solid var(--secondary);
-  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
 }
 
 li {
@@ -154,15 +151,15 @@ nav a:hover {
   text-decoration: none;
 }
 
-nav  li {
+nav li {
   cursor: pointer;
 }
 
 textarea {
-	width: 600px;
-	height: 120px;
-	border: 3px solid #cccccc;
-	padding: 5px;
+  width: 600px;
+  height: 120px;
+  border: 3px solid #cccccc;
+  padding: 5px;
 }
 
 .container {
@@ -243,51 +240,50 @@ textarea {
 }
 
 .modalBackdrop {
-	background: rgba(0, 0, 0, .65);
-	bottom: 0;
-	left: 0;
-	overflow: auto;
-	position: fixed;
-	right: 0;
-	top: 0;
-	z-index: 1;
+  background: rgba(0, 0, 0, 0.65);
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1;
 }
 
 .modalContainer {
-	background: var(--darker);
-	border-radius: 5px;
-	max-width: 100%;
-	margin: 50px auto;
-	padding: 15px;
-	width: 960px;
+  background: var(--darker);
+  border-radius: 5px;
+  max-width: 100%;
+  margin: 50px auto;
+  padding: 15px;
+  width: 960px;
 }
 
 .modalTitle {
-	font-size: 18px;
-	font-weight: 600;
-	margin-bottom: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 25px;
 }
 
 button {
-	background: var(--primary);
-	border: 0;
-	border-radius: 5px;
-	color: #fff;
-	cursor: pointer;
-	font-size: 16px;
-	font-weight: 600;
-	margin-bottom: 30px;
-	padding: 10px 15px;	
+  background: var(--primary);
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  padding: 10px 15px;
 }
 
 a {
-	border-radius: 5px;
-	color: var(--primary);
-	font-weight: 600;
-	padding: 2px 4px;
-	margin-left: -2px;
-	margin-right: -2px;
-	
+  border-radius: 5px;
+  color: var(--primary);
+  font-weight: 600;
+  padding: 2px 4px;
+  margin-left: -2px;
+  margin-right: -2px;
 }
 
 .navActive {

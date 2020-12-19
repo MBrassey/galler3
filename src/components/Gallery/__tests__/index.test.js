@@ -8,20 +8,19 @@ const portrait = { name: "portraits", description: "Portraits of people in my li
 
 afterEach(cleanup)
 
-describe('Gallery is rendering', () => {
-
+describe('Gallery component', () => {
 
   it('renders', () => {
     render(<Gallery currentCategory={portrait} />);
   });
 
-  it('renders', () => {
+  it('matches snapshot', () => {
     const { asFragment } = render(<Gallery currentCategory={portrait} />)
     expect(asFragment()).toMatchSnapshot()
   })
 });
 
-it('renders', () => {
+it('displays text', () => {
   const { getByTestId } = render(<Gallery currentCategory={portrait} />)
   expect(getByTestId('h1tag')).toHaveTextContent('Portraits')
 })
