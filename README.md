@@ -27,16 +27,16 @@ Single-page photography portfolio application that uses React state, props, Hook
     npm run deploy (for production)
     server listens @ localhost:8080/
 
-<h6><p align="right">:cyclone: Click the image(s) below to view the live <a id="Screenshots" href="https://galler3-mbrassey.herokuapp.com/api/users/">webapplication</a></p></h6>
+<h6><p align="right">:cyclone: Click the image(s) below to view the live <a id="Screenshots" href="https://mbrassey.github.io/galler3/">webapplication</a></p></h6>
 
 > App Demo
-> [<img src="assets/img/Setup.gif">](https://galler3-mbrassey.herokuapp.com/api/users/)
+> [<img src="public/Preview.jpg">](https://mbrassey.github.io/galler3/)
 
 > Usage
-> [<img src="assets/img/Users.gif">](https://galler3-mbrassey.herokuapp.com/api/users/)
+> [<img src="assets/img/Users.gif">](https://mbrassey.github.io/galler3/)
 
 > Passing Tests
-> [<img src="assets/img/Thoughts.gif">](https://galler3-mbrassey.herokuapp.com/api/thoughts/)
+> [<img src="assets/img/Thoughts.gif">](https://mbrassey.github.io/galler3/)
 
 #### Questions
 
