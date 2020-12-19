@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCameraRetro } from "@fortawesome/free-solid-svg-icons";
 
 function Nav(props) {
   const {
@@ -15,17 +17,20 @@ function Nav(props) {
   }, [currentCategory]);
 
   return (
-    <header className="flex-row px-1">
+    <header className="flex-row">
       <h2>
+      <li className="mx-0">
+      <FontAwesomeIcon icon={faCameraRetro} />
         <a data-testid="link" href="/">
-          <span role="img" aria-label="camera">galler3</span>
+          <span role="img" aria-label="camera"> galler3</span>
         </a>
+        </li>
       </h2>
       <nav>
         <ul className="flex-row">
-          <li className="mx-2">
+          <li className="mx-3">
             <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
-              AboutMe
+              About Me
             </a>
           </li>
           <li className={`mx-2 ${contactSelected && 'navActive'}`}>

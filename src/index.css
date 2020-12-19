@@ -85,7 +85,8 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 header {
@@ -182,6 +183,12 @@ textarea {
   justify-content: flex-end;
 }
 
+.mx-0 {
+  margin-right: var(--spacing-one);
+  margin-left: var(--spacing-one);
+  width: 180px;
+}
+
 .mx-1 {
   margin-right: var(--spacing-one);
   margin-left: var(--spacing-one);
@@ -190,6 +197,12 @@ textarea {
 .mx-2 {
   margin-right: var(--spacing-two);
   margin-left: var(--spacing-two);
+}
+
+.mx-3 {
+  margin-right: var(--spacing-two);
+  margin-left: var(--spacing-two);
+  width: 104px;
 }
 
 .my-1 {
